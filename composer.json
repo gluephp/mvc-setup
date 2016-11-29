@@ -1,0 +1,27 @@
+{
+    "name": "gluephp/mvc-setup",
+    "description": "Sub package for gluephp/mvc",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magnus Eriksson",
+            "email": "gluephp@reloop.se"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0",
+        "maer/csrf": "^1.0",
+        "gluephp/glue": "^0.1.2",
+        "gluephp/glue-monolog": "^0.1.0",
+        "gluephp/glue-whoops": "^0.1.1",
+        "gluephp/glue-database": "^0.1.0",
+        "gluephp/glue-plates": "^0.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Glue\\Mvc\\": "src/"
+        }
+    }
+}
